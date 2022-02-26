@@ -1,0 +1,20 @@
+﻿@model Web1.Models.RandModel
+
+@{
+    ViewData["Title"] = "Model";
+}
+
+<div>
+    <h1 class="display-4">PassUsingModel</h1>
+    <p><b>Rand Value First : @Model.Num1</b></p>
+    <p><b>Rand Value Second : @Model.Num2</b></p>
+    <p><b>Add :</b></p>
+    <p>@Model.Num1 + @Model.Num2 = @(@Model.Num1 + @Model.Num2)</p>
+    <p><b>Sub :</b></p>
+    <p>@Model.Num1 - @Model.Num2 = @(@Model.Num1 - @Model.Num2)</p>
+    <p><b>Mult :</b></p>
+    <p>@Model.Num1 * @Model.Num2 = @(@Model.Num1 * @Model.Num2)</p>
+    <p><b>Div :</b></p>
+    <p>@Model.Num1 / @Model.Num2 = @(@Model.Num1 / @Model.Num2)</p>
+</div>
+
