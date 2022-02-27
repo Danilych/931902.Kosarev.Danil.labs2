@@ -15,6 +15,15 @@
     <p><b>Mult :</b></p>
     <p>@Model.Num1 * @Model.Num2 = @(@Model.Num1 * @Model.Num2)</p>
     <p><b>Div :</b></p>
-    <p>@Model.Num1 / @Model.Num2 = @(@Model.Num1 / @Model.Num2)</p>
+    @if(Model.Num1 == 0 || Model.Num2 == 0)
+        {
+        <p>@Model.Num1 / @Model.Num2 = Error (division on zero)</p>
+    }
+    else
+    {
+         <p>@Model.Num1 / @Model.Num2 = @(@Model.Num1 / @Model.Num2)</p>
+    }
+
+   
 </div>
 
