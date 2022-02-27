@@ -14,7 +14,7 @@
     <p><b>Mult :</b></p>
     <p> @ViewBag.Num1 *  @ViewBag.Num2 = @(@ViewBag.Num1 * @ViewBag.Num2)</p>
     <p><b>Div :</b></p>
-     @if(ViewBag.Num1 == 0 || ViewBag.Num2 == 0)
+     @if(ViewBag.Num2 == 0)
         {
             <p>@ViewBag.Num1 / @ViewBag.Num2 = Error (division on zero)</p>
     }
