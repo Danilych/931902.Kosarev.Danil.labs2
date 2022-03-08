@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddTransient<IRandomService, RandomNumberSerice>();
+builder.Services.AddTransient<IRandomService, RandomNumberService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -31,14 +31,29 @@ app.Run();
 
 public interface IRandomService
 {
-    int GetNumber();
+    int GetNum1();
+    int GetNum2();
 }
 
-public class RandomNumberSerice : IRandomService
+public class RandomNumberService : IRandomService
 {
-    public int GetNumber()
+    int Num1;
+    int Num2;
+
+    public RandomNumberService()
     {
         Random random = new Random();
-        return random.Next(0, 100);
+        Num1 = random.Next(0, 100);
+        Num2 = random.Next(0, 100);
+    }
+
+    public int GetNum1()
+    {
+        return Num1;
+    }
+
+    public int GetNum2()
+    {
+        return Num2;
     }
 }

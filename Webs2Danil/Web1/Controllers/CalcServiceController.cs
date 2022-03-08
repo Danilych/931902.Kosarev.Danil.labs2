@@ -4,12 +4,6 @@ namespace Web1.Controllers;
 
 public class CalcServiceController : Controller
 {
-    private readonly IRandomService _randomService;
-
-    public CalcServiceController(IRandomService randomService)
-    {
-        _randomService = randomService;
-    }
     public IActionResult Index()
     {
         return View();
@@ -46,9 +40,6 @@ public class CalcServiceController : Controller
 
     public IActionResult AccessServiceDirectly()
     {
-        ViewData["Num1"] = _randomService.GetNumber();
-        ViewData["Num2"] = _randomService.GetNumber();
-
         return View();
     }
 }
