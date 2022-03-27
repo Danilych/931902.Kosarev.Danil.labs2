@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1 class="display-4">Form parameters parsing demo</h1>
+    <ul style="list-style-type:disc; padding-top:0px;">
+        <li><a asp-area="" asp-controller="CalcService" asp-action="Manual">Manual parsing in single action</a></li>
+        <li><a asp-area="" asp-controller="CalcService" asp-action="ManualWithSeparateHandlers">Manual parsing in separate actions</a></li>
+        <li><a asp-area="" asp-controller="CalcService" asp-action="ModelBindingInParameters">Model binding (parameters)</a></li>
+        <li><a asp-area="" asp-controller="CalcService" asp-action="ModelBindingInSeparateModel">Model binding (separate model)</a></li>    
+    </ul>
+</div>
+
