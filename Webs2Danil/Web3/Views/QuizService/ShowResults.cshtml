@@ -1,0 +1,23 @@
+﻿@model Web3.Models.answerModel
+
+@{
+    ViewData["Title"] = "Hello Quiz";
+}
+
+<style>
+#AnswerButtons{
+    margin-top:15px;
+}
+</style>
+
+<div>
+    <h1>Quiz results</h1>
+
+    @ViewBag.result
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

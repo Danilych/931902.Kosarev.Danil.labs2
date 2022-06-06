@@ -1,0 +1,34 @@
+﻿@model Web3.Models.answerModel
+
+@{
+    ViewData["Title"] = "Hello Quiz";
+}
+
+<style>
+#AnswerButtons{
+    margin-top:15px;
+}
+</style>
+
+<div>
+    @ViewBag.answer
+
+    <div>
+         <form method = "post" id="formNumbers" name="numberForm" action="">
+            <div>
+                <input type="number" asp-for="answer"/>
+                <span asp-validation-for="answer"></span>
+            </div>
+            <div  id="AnswerButtons">
+                <input type="submit" value="Next" formaction="Quiz"/>
+                <input type="submit" value="Finish" formaction="ResultPost"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
