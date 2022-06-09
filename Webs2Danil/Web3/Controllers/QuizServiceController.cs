@@ -133,38 +133,5 @@ namespace Web3.Controllers
                 return Content("Return to main menu for new quiz generation!");
             }
         }
-
-
-        //public IActionResult ManualWithSeparateHandlers()
-        //{
-        //    return View();
-        //}
-
-        //[HttpGet]
-        //public IActionResult ModelBindingInParameters()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult ModelBindingInParameters(int firstNumber, string operation, int secondNumber)
-        //{
-        //    ViewBag.Result = Web3.HtmlHelpersCode.QuizHelper.CreateResult(firstNumber, secondNumber, operation);
-        //    return View("ModelResult");
-        //}
-
-        //[HttpGet]
-        //public IActionResult ModelBindingInSeparateModel()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult ModelBindingInSeparateModel(QuizModel mathmodel)
-        //{
-        //   // ViewBag.Result = mathmodel.CreateResult();
-        //    return View("ModelResult");
-        //}
-
     }
 }
