@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web5
+build_property.RootNamespace = Web5
+build_property.ProjectDir = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web5\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web5
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/DoctorModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/DoctorModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/DoctorModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/DoctorModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/DoctorModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/HospitalModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/HospitalModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxNb2RlbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/HospitalModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxNb2RlbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/HospitalModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxNb2RlbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/HospitalModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxNb2RlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/LabModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/LabModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/LabModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/LabModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/LabModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/PatientModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudE1vZGVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/PatientModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudE1vZGVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/PatientModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudE1vZGVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/PatientModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudE1vZGVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/PatientModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudE1vZGVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web5/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

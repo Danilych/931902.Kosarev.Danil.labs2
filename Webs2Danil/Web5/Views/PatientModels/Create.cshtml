@@ -1,0 +1,48 @@
+﻿@model Web5.Models.PatientModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>PatientModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="hospitalAddress" class="control-label"></label>
+                <input asp-for="hospitalAddress" class="form-control" />
+                <span asp-validation-for="hospitalAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="phones" class="control-label"></label>
+                <input asp-for="phones" class="form-control" />
+                <span asp-validation-for="phones" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="healingDoctors" class="control-label"></label>
+                <input asp-for="healingDoctors" class="form-control" />
+                <span asp-validation-for="healingDoctors" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
