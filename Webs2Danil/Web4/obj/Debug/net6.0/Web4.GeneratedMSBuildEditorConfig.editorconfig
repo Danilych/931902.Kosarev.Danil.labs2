@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web4
+build_property.RootNamespace = Web4
+build_property.ProjectDir = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web4\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web4
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/CheckBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXENoZWNrQm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/CheckBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXENoZWNrQm94UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/Controls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXENvbnRyb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/DropDownList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXERyb3BEb3duTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/DropDownListResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXERyb3BEb3duTGlzdFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/ListBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXExpc3RCb3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/ListBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXExpc3RCb3hSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/Radio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFJhZGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/RadioResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFJhZGlvUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/ResetCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFJlc2V0Q29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/ResetEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFJlc2V0RW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/SignUpCredentials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFNpZ25VcENyZWRlbnRpYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/SignUpOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFNpZ25VcE9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/SignUpTwo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFNpZ25VcFR3by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/TextArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFRleHRBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/TextAreaResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFRleHRBcmVhUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/TextBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFRleHRCb3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/LoginService/TextBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5TZXJ2aWNlXFRleHRCb3hSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

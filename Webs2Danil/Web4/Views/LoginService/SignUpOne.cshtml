@@ -1,0 +1,123 @@
+﻿@model Web4.Models.FirstRegisterStageModel
+
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+
+#InputDiv{
+    margin-bottom:15px;
+}
+</style>
+
+
+<div>
+    <h1>Sign Up</h1>
+    <form method = "post" id="formTextBox" name="formTextBox" action="">
+
+        <div id="InputDiv">
+            <label for="input">First name</label>
+            <input type="text" asp-for="firstName" class="form-control" id="input"/>
+            <span asp-validation-for="firstName"></span>
+        </div>
+
+        <div id="InputDiv">
+            <label for="input">Last name</label>
+            <input type="text" asp-for="lastName" class="form-control" id="input"/>
+            <span asp-validation-for="lastName"></span>
+        </div>
+
+        <label for="input">Birthday</label>
+        <div id="InputDiv" class="form-inline">  
+            <select asp-for="birthdayDay" style="width:auto" class="form-control" id="input">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select asp-for="birthdayMonth" style="width:auto" class="form-control" id="input">
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select asp-for="birthdayYear" style="width:auto" class="form-control" id="input">
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+            </select>
+        </div>
+
+        <label for="input">Birthday</label>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="gender" value="Male" id="input"/>
+                Male
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="gender" value="Female"/>
+                Female
+            </label>
+        </div>
+        <div>
+        <span asp-validation-for="gender"></span>
+        </div>
+
+        <input type="submit" value="Sign up" formaction="SignUp" class="btn btn-primary"/>
+    </form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

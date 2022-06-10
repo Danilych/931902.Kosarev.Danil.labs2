@@ -1,0 +1,102 @@
+﻿@model Web4.Models.ControlsModel
+
+@{
+    ViewData["Title"] = "Radio";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>Check Box</h1>
+
+    <form method = "post" id="formRadio" name="formRadio" action="">
+         <label for="input">Month</label>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="January" id="input"/>
+                January
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="February"/>
+                February
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="March"/>
+                March
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="April"/>
+                April
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="May"/>
+                May
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="June"/>
+                June
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="July"/>
+                July
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="August"/>
+                August
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="September"/>
+                September
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="October"/>
+                October
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="November"/>
+                November
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" asp-for="radio" value="December"/>
+                December
+            </label>
+        </div>
+        <div>
+        <span asp-validation-for="radio"></span>
+        </div>
+    <input type="submit" value="Submit" formaction="Radio" class="btn btn-default" id="Button"/>
+    </form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

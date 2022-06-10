@@ -1,0 +1,36 @@
+﻿@model Web4.Models.CodeModel
+
+@{
+    ViewData["Title"] = "Reset your password";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>Reset your password</h1>
+
+    <p class="bg-info">Generated code: @ViewBag.testCode</p>
+    <p class="bg-danger">@ViewBag.error</p>
+
+    <form method = "post" id="formTextBox" name="formTextBox" action="">
+    <div>
+    <label for="input">code</label>
+    <input type="text" asp-for="code" class="form-control" id="input"/>
+    <span asp-validation-for="code"></span>
+    </div>
+    <div id="Button">
+        <input type="submit" value="Verify" formaction="Reset" class="btn btn-default"/>
+    </div>
+</form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

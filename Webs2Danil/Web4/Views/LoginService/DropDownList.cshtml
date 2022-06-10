@@ -1,0 +1,45 @@
+﻿@model Web4.Models.ControlsModel
+
+@{
+    ViewData["Title"] = "Drop-down List";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>Drop-down List</h1>
+
+    <form method = "post" id="formDropDownList" name="formDropDownList" action="">
+    <div>
+    <label for="input">Month</label>
+    <select asp-for="dropDownList" class="form-control" id="input">
+        <option value="">Выберите месяц</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    <span asp-validation-for="dropDownList"></span>
+    </div>
+    <input type="submit" value="Submit" formaction="DropDownList" class="btn btn-default" id="Button"/>
+    </form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

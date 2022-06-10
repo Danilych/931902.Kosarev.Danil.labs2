@@ -1,0 +1,31 @@
+﻿@model Web4.Models.ControlsModel
+
+@{
+    ViewData["Title"] = "Text Area";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>Text Area</h1>
+
+    <form method = "post" id="formTextArea" name="formTextArea" action="">
+    <div>
+    <label for="input">Text</label>
+    <textarea asp-for="textArea" class="form-control" id="input"></textarea>
+    <span asp-validation-for="textArea"></span>
+    </div>
+    <input type="submit" value="Submit" formaction="TextArea" class="btn btn-default" id="Button"/>
+    </form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

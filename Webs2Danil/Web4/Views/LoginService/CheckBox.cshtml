@@ -1,0 +1,24 @@
+﻿@model Web4.Models.ControlsModel
+
+@{
+    ViewData["Title"] = "Check Box";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>Check Box</h1>
+
+    <form method = "post" id="formCheckBox" name="formCheckBox" action="">
+    <div>
+    <label for="input">Is selected</label>
+    <input type="checkbox" asp-for="checkBox" id="input"/>
+    </div>
+    <input type="submit" value="Submit" formaction="CheckBox" class="btn btn-default" id="Button"/>
+    </form>
+</div>

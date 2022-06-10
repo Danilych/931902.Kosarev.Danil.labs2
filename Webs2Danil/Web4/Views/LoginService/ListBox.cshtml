@@ -1,0 +1,44 @@
+﻿@model Web4.Models.ControlsModel
+
+@{
+    ViewData["Title"] = "List Box";
+}
+
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+
+
+<div>
+    <h1>List Box</h1>
+
+    <form method = "post" id="formListBox" name="formListBox" action="">
+    <div>
+    <label for="input">Month</label>
+    <select asp-for="listBox" multiple="multiple" class="form-control" id="input">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    <span asp-validation-for="listBox"></span>
+    </div>
+    <input type="submit" value="Submit" formaction="ListBox" class="btn btn-default" id="Button"/>
+    </form>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

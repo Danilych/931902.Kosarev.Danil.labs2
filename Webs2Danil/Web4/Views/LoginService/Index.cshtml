@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1 class="display-4">Multi-staged forms</h1>
+
+    <p class="bg-success">@ViewBag.message</p>
+
+    <ul style="list-style-type:disc; padding-top:0px;">
+        <li><a asp-area="" asp-controller="LoginService" asp-action="Reset">Password Reset</a></li>
+        <li><a asp-area="" asp-controller="LoginService" asp-action="SignUp">Sign Up</a></li>   
+    </ul>
+</div>
+

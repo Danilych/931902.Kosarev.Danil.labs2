@@ -16,12 +16,12 @@
     <div>
          <form method = "post" id="formNumbers" name="numberForm" action="">
             <div>
-                <input type="number" asp-for="answer"/>
+                <input type="number" asp-for="answer" class="form-control"/>
                 <span asp-validation-for="answer"></span>
             </div>
             <div  id="AnswerButtons">
-                <input type="submit" value="Next" formaction="Quiz"/>
-                <input type="submit" value="Finish" formaction="ResultPost"/>
+                <input type="submit" value="Next" formaction="Quiz" class="btn btn-primary"/>
+                <input type="submit" value="Finish" formaction="ResultPost" class="btn btn-outline-secondary"/>
             </div>
         </form>
     </div>
