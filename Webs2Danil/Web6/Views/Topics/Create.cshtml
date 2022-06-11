@@ -1,0 +1,36 @@
+﻿@model Web6.Models.Topic
+
+@{
+    ViewData["Title"] = "Create new topic";
+}
+
+<h1>Create new topic</h1>
+
+<h4>Topic</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="TopicName" class="control-label"></label>
+                <input asp-for="TopicName" class="form-control" />
+                <span asp-validation-for="TopicName" class="text-danger"></span>
+            </div>
+            <div style="display:none;">
+                <input type="hidden"  asp-for="ForumCategoryId" class="form-control" value = "@ViewBag.ForumId"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Mockups" asp-action="SingleForum" asp-route-id="@ViewBag.ForumId">Back to forum</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

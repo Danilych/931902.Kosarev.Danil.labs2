@@ -1,0 +1,43 @@
+﻿@model Web6.Models.RegisterModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div>
+    <h1>Register</h1>
+    <h3>Create a new account</h3>
+    <hr/>
+    <div class="validation text-danger" asp-validation-summary="ModelOnly"></div>
+    <div style="max-width:300px;">
+    <form class="needs-validation" method = "post" asp-controller="Account" asp-antiforgery="true" asp-action="Register" novalidate>
+        <div class="mb-3">
+            <label for="input">Email</label>
+            <input type="text" asp-for="Email" class="form-control" id="input" required>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="input">Password</label>
+            <input type="password" asp-for="Password" class="form-control" id="input" required>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="input">Confirm password</label>
+            <input type="password" asp-for="ConfirmPassword" class="form-control" id="input" required>
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Complete sign up" class="btn btn-primary"/>
+        </div>      
+    </form>
+    </div>
+</div>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

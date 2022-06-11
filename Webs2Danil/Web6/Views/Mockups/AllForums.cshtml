@@ -1,0 +1,31 @@
+﻿@using System.Security.Claims;
+
+@model IEnumerable<Web6.Models.ForumCategory>
+
+@{
+    ViewData["Title"] = "Forum";
+}
+
+<h1>Forum</h1>
+
+<div class="list-group">
+
+    @if(User.Identity.IsAuthenticated)
+    {
+        if(((ClaimsIdentity)User.Identity).Claims.ElementAt(1).Value == "admin")
+        {
+          
+            <a class ="list-group-item list-group-item-action active" asp-area="" asp-controller="ForumCategories" asp-action="Create">
+                Create new category
+                </a>
+        }
+    }
+
+    @foreach(var item in Model)
+    {
+        <a class ="list-group-item list-group-item-action" asp-area="" asp-controller="Mockups" asp-action="SingleForum" asp-route-id="@item.Id">
+            @item.CategoryName
+            </a>
+    }
+
+</div>

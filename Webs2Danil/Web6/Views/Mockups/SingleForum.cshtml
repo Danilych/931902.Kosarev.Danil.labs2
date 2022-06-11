@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Web6.Models.Topic>
+
+@{
+    ViewData["Title"] = "Forum";
+}
+
+<h1>Forum @ViewBag.ForumName</h1>
+
+<p>
+    @ViewBag.ForumDescription
+</p>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p><a asp-controller="Topics" asp-action="Create" asp-route-forumId="@ViewBag.ForumId">Create new topic</a></p>
+}
+
+<div class="list-group">
+    
+        @{
+            int i = 0;
+            foreach(var item in Model)
+            {     
+                if(i%2 == 0)
+                {
+                    <a class ="list-group-item list-group-item-action lighthat"  asp-controller="Mockups" asp-action="SingleTopic" asp-route-id="@item.Id">
+                        <div class="row">
+
+                            <div class="col-6 row-cols-1">
+                                <div class="col">
+                                    <p class="link-primary fw-bold fs-4">@item.TopicName</p>
+                                </div>
+                                <div class="col">
+                                    <p class="fs-6">@item.TopicCreator, @item.TopicCreationDate</p>
+                                </div>
+                            </div>
+
+                            <div class="col row-cols-1">
+                                <div class="col">
+                                    <p class="fs-6">@item.RepliesAmount replies</p>
+                                </div>
+                            </div>
+
+                            <div class="col-3 row-cols-1">
+                                <div class="col">
+                                    <p class="fs-6">@item.LasReplyCreator</p>
+                                </div>
+                                <div class="col">
+                                    <p class="fs-6">@item.LastReplyDate</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                }
+                else
+                {
+                    <a class ="list-group-item list-group-item-action " asp-controller="Mockups" asp-action="SingleTopic" asp-route-id="@item.Id">
+                    <div class="row">
+
+                            <div class="col-6 row-cols-1">
+                                <div class="col">
+                                    <p class="link-primary fw-bold fs-4">@item.TopicName</p>
+                                </div>
+                                <div class="col">
+                                    <p class="fs-6">@item.TopicCreator, @item.TopicCreationDate</p>
+                                </div>
+                            </div>
+
+                            <div class="col row-cols-1">
+                                <div class="col">
+                                    <p class="fs-6">@item.RepliesAmount replies</p>
+                                </div>
+                            </div>
+
+                            <div class="col-3 row-cols-1">
+                                <div class="col">
+                                    <p class="fs-6">@item.LasReplyCreator</p>
+                                </div>
+                                <div class="col">
+                                    <p class="fs-6">@item.LastReplyDate</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                }
+            
+                i++;
+            }
+        }
+   
+</div>
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicMessage1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicMessage2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicCreator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicCreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicEditDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicMessage1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicMessage2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicCreator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicCreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicEditDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@

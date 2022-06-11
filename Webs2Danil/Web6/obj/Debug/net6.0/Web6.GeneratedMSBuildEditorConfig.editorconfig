@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web6
+build_property.RootNamespace = Web6
+build_property.ProjectDir = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web6\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nix\Desktop\931902_Kosarev_Danil_WebLabs\Web2\Webs2Danil\Web6
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/ForumCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/ForumCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/ForumCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/ForumCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/ForumCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Mockups/AllForums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9ja3Vwc1xBbGxGb3J1bXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Mockups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9ja3Vwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Mockups/SingleForum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9ja3Vwc1xTaW5nbGVGb3J1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Mockups/SingleTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9ja3Vwc1xTaW5nbGVUb3BpYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/TopicPosts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNQb3N0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/TopicPosts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNQb3N0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/TopicPosts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNQb3N0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/TopicPosts/Reply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNQb3N0c1xSZXBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Topics/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Topics/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Topics/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nix/Desktop/931902_Kosarev_Danil_WebLabs/Web2/Webs2Danil/Web6/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6cl9d7t5og

@@ -7,6 +7,9 @@
     <Controller_SelectedScaffolderID>MvcControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>Web4</ActiveDebugProfile>
+    <_SelectedScaffolderID>MvcControllerWithContextScaffolder</_SelectedScaffolderID>
+    <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
+    <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

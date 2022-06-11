@@ -1,0 +1,58 @@
+﻿@using System.Security.Claims;
+
+@model IEnumerable<Web6.Models.TopicPost>
+
+@{
+    ViewData["Title"] = "Topic";
+}
+
+<h1>@ViewBag.TopicName</h1>
+
+<div>
+<p>
+    @if (User.Identity.IsAuthenticated)
+        {
+            <a class="text-decoration-none" asp-controller="TopicPosts" asp-action="Reply" asp-route-TopicId="@ViewBag.TopicId">Reply</a><span> |</span>
+            if (((ClaimsIdentity)User.Identity).Claims.ElementAt(1).Value == "admin")
+            {
+                 
+                <a class="text-decoration-none" asp-controller="Topics" asp-action="Edit" asp-route-id="@ViewBag.TopicId">Edit</a><span> |</span>
+                <a class="text-decoration-none" asp-controller="Topics" asp-action="Delete" asp-route-id="@ViewBag.TopicId">Delete</a><span> |</span>
+            }
+
+        }
+        <a class="text-decoration-none" asp-controller="Mockups" asp-action="SingleForum" asp-route-id="@ViewBag.ForumId">Back to @ViewBag.ForumName</a>
+</p>
+</div>
+
+@{
+    foreach(var item in Model)
+    {
+        <div class="list-group mb-3">
+            
+            <p class ="list-group-item lighthat mb-0">
+                @item.TopicCreator, @item.TopicCreationDate (edited @item.TopicEditDate)
+           
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (((ClaimsIdentity)User.Identity).Claims.ElementAt(0).Value == item.TopicCreator)
+                    {
+                        <span>|</span>
+                        <a class="text-decoration-none" asp-controller="TopicPosts" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+                        <span>|</span>
+                        <a class="text-decoration-none" asp-controller="TopicPosts" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                }
+               
+            </p>
+
+            <div class="list-group-item">
+                <p class="text-break">@item.TopicMessage1</p>
+                <p class="text-break">@item.TopicMessage2</p>
+                //Insert picture here
+            </div>
+       
+
+        </div>
+    }
+}
