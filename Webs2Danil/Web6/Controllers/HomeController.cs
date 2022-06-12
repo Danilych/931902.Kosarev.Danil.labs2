@@ -1,21 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Web6.Models;
+using Web6.Data;
+using Web6.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Web6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly Web6Context _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(Web6Context context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return _context.MainPost != null ?
+                          View(await _context.MainPost.ToListAsync()) :
+                          Problem("Entity set 'Web6Context.MainPost'  is null.");
         }
 
 

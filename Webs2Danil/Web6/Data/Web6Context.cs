@@ -37,6 +37,7 @@ namespace Web6.Data
 
         public DbSet<Web6.Models.TopicPost>? TopicPost { get; set; }
         public DbSet<Web6.Models.Topic>? Topic { get; set; }
+        public DbSet<Web6.Models.MainPost>? MainPost { get; set; }
 
         
     }

@@ -1,7 +1,56 @@
-﻿@{
+﻿@using System.Security.Claims;
+
+@model IEnumerable<Web6.Models.MainPost>
+
+@{
     ViewData["Title"] = "Index";
 }
 
 <div>
     <h1>Posts</h1>
 </div>
+
+<div class="mb-3">
+    @if (User.Identity.IsAuthenticated)
+        {    
+            if (((ClaimsIdentity)User.Identity).Claims.ElementAt(1).Value == "admin")
+            {
+                    <a type="submit" class="btn btn-outline-secondary" asp-controller="MainPosts" asp-action="Create">Create new post</a>
+            }
+
+        }
+</div>
+
+@{
+    foreach(var item in Model)
+    {
+        <div class="list-group mb-3">
+            
+            <p class ="list-group-item lighthat mb-0">
+                @item.TopicCreator, @item.TopicCreationDate (edited @item.TopicEditDate)
+           
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (((ClaimsIdentity)User.Identity).Claims.ElementAt(0).Value == item.TopicCreator)
+                    {
+                        <span>|</span>
+                        <a class="text-decoration-none" asp-controller="MainPosts" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+                        <span>|</span>
+                        <a class="text-decoration-none" asp-controller="MainPosts" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                }
+               
+            </p>
+
+            <div class="list-group-item">
+                <p class="text-break">@item.TopicMessage1</p>
+                <p class="text-break">@item.TopicMessage2</p>
+                //Insert picture here
+            </div>
+       
+
+        </div>
+    }
+}
+
+

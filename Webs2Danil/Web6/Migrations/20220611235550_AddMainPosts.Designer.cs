@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web6.Data;
 
@@ -11,9 +12,10 @@ using Web6.Data;
 namespace Web6.Migrations
 {
     [DbContext(typeof(Web6Context))]
-    partial class Web6ContextModelSnapshot : ModelSnapshot
+    [Migration("20220611235550_AddMainPosts")]
+    partial class AddMainPosts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
